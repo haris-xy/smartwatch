@@ -1,0 +1,53 @@
+#outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    margin: auto;
+    max-width: 50%;
+    max-height: 80%;
+    margin-top: 2rem;
+    min-width: 8REM;
+    padding: 3PX;
+}
+
+#top {
+    border-top: 2px solid rgb(45, 184, 231);
+    border-left: 2px solid rgb(45, 184, 231);
+    border-right: 2px solid rgb(45, 184, 231);
+    height: 18rem;
+    width: 10rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+#mainbox {
+    border: 3px double black;
+    border-radius: 12px;
+    width: 14rem;
+    height: 14rem;
+    text-align: center;
+}
+
+#button1 {
+    border: 3px solid black;
+    width:20px;
+    height:20px;
+
+    border-radius: 100%;
+
+}
+
+
+#lower{
+    border-bottom: 2px solid rgb(45, 184, 231);
+    border-left: 2px solid rgb(45, 184, 231);
+    border-right: 2px solid rgb(45, 184, 231);
+    height: 18rem;
+    width: 10rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
